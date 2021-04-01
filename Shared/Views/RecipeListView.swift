@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RecipeListView: View {
   //MARK: - VARIABLES
-  //Reference the view model
+  //Reference the view model as an ObservedObject to let View know that this will need to be observed for state changes.
   @ObservedObject var viewModel = RecipeViewModel()
   
   //MARK: - BODY

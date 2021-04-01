@@ -7,6 +7,7 @@
 
 import Foundation
 
+// ViewModels should adopt ObservableObject protocol.
 class RecipeViewModel: ObservableObject {
   //MARK: - VARIABLES
   @Published var recipes = [Recipe]()
