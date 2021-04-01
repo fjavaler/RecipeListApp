@@ -27,6 +27,7 @@
 		ACFB64972614EC1A003EA452 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB64952614EC1A003EA452 /* DataService.swift */; };
 		ACFE4765261573B5005A671E /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = ACFE4764261573B5005A671E /* recipes.json */; };
 		ACFE4768261573F9005A671E /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = ACFE4764261573B5005A671E /* recipes.json */; };
+		ACFE476E26157700005A671E /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFE476D26157700005A671E /* RecipeFeaturedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		ACFB648E2614E9A8003EA452 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
 		ACFB64952614EC1A003EA452 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		ACFE4764261573B5005A671E /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
+		ACFE476D26157700005A671E /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +120,10 @@
 		ACFB647F2614E1D5003EA452 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AC7EA9D5261566E300D201FF /* RecipeTabView.swift */,
+				ACFE476D26157700005A671E /* RecipeFeaturedView.swift */,
 				ACFB645B2614DF63003EA452 /* RecipeListView.swift */,
 				44A13E8D261533E1009E073D /* RecipeDetailView.swift */,
-				AC7EA9D5261566E300D201FF /* RecipeTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "StarSailor Studios";
 				TargetAttributes = {
 					ACFB64602614DF64003EA452 = {
 						CreatedOnToolsVersion = 12.4;
@@ -262,6 +266,7 @@
 				ACFB648A2614E852003EA452 /* Recipe.swift in Sources */,
 				ACFB646F2614DF64003EA452 /* RecipeListView.swift in Sources */,
 				AC7EA9FE26156E4100D201FF /* Ingredient.swift in Sources */,
+				ACFE476E26157700005A671E /* RecipeFeaturedView.swift in Sources */,
 				ACFB646D2614DF64003EA452 /* Recipe_List_App.swift in Sources */,
 				ACFB64962614EC1A003EA452 /* DataService.swift in Sources */,
 				AC7EA9D6261566E300D201FF /* RecipeTabView.swift in Sources */,

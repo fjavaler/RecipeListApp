@@ -9,8 +9,10 @@ import SwiftUI
 
 struct RecipeListView: View {
   //MARK: - VARIABLES
-  //Reference the view model as an ObservedObject to let View know that this will need to be observed for state changes.
-  @ObservedObject var viewModel = RecipeViewModel()
+  
+  //MARK: - IMPORTANT!
+  //This is how you reference the EnvironmentObject that was injected in the RecipeTabView!
+  @EnvironmentObject var viewModel: RecipeViewModel
   
   //MARK: - BODY
   var body: some View {

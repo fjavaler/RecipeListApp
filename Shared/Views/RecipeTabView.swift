@@ -10,7 +10,7 @@ import SwiftUI
 struct RecipeTabView: View {
     var body: some View {
       TabView {
-        Text("Featured View")
+        RecipeFeaturedView()
           .tabItem {
             VStack {
               Image(systemName: "star.fill")
@@ -26,6 +26,9 @@ struct RecipeTabView: View {
             }
           }
       }
+      //MARK: - IMPORTANT!
+      //this is how you inject an environmentObject to sub views.
+      .environmentObject(RecipeViewModel())
     }
 }
 
